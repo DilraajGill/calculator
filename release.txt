@@ -1,0 +1,53 @@
+v3.6:
+README file has been created and finished
+UML diagram minor changes successfully done
+Documentation testing had to be re-done due to code changes with BadTypeException
+Checkstyle has been re-done to comply with changes made
+
+v3.5:
+Bug has been detected in AsciiView which required expression and instruction
+to be inputted at the same time. It arrived from reading user input using .next()
+
+v3.4:
+Further UML diagram has been completed
+The attributes of classes have been changed from default to private
+
+v3.3:
+UML Diagram has been designed
+StrStack has been deleted as it was not utilised by the program
+BadTypeException has been removed from NumStack, OpStack
+Replaced with InvalidExpression instead
+
+v3.2:
+Usability testing has been completed. Window can be re-sized
+
+v3.1:
+Entire code has now been completed
+Configuration testing has been completed (Tested on NoMachine and operating as intended)
+JavaDoc has been updated to reference areas where I had looked at the example code
+
+v2.3:
+Another bug has been patched. There would be instances where my INFIX operation would allow 
+for POSTFIX and return the correct result. This has now been solved by adding a variable
+counting the number of times a number is inputted consecutively. 
+
+v2.2:
+A bug has been patched that caused errors where values were not cleared from the NumStack.
+This raised issues when an exception had been thrown as it rendered the calculator unusable.
+
+v2.1:
+GUI has functionality
+Documentation testing has been completed again for new classes
+
+v1.3:
+Checkstyle has been completed for new classes
+Empty GUI with zero functionality
+
+v1.2:
+Documentation testing has been completed for the classes currently finished
+
+v1.1:
+This is the first release
+The GUI just provides a simple screen with labels but no interactions have been created
+Checkstyle alongside Javadoc has been completed for all of the newly created classes
+ReversePolishCalc and it's methods are working and tested
